@@ -9,4 +9,4 @@ client.on('message', (message) => {
   if (message.content === 'やぁ' && !message.author.bot) message.reply('こんにちは！')
 })
 
-client.login('your token')
+client.login(process.env.discordToken)
